@@ -1,0 +1,22 @@
+class Student
+{
+  constructor(name="john",a=2)
+  {
+    this.name=name;
+    this.roll_no=a;
+  }
+  //create the method display below
+  display(){
+      console.log(this.name)
+       console.log(this.roll_no)
+  }
+  
+}
+
+var x=new Student("vaibhav",101);
+var y=new Student("rahul",102);
+var z=new Student();
+
+x.display();
+y.display();
+z.display();
